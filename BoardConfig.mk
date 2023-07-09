@@ -21,6 +21,9 @@ DEVICE_PATH := device/huawei/figo
 # Assert
 TARGET_OTA_ASSERT_DEVICE := figo
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
+
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2019-05-05
 
