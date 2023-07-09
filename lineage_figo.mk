@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
+
 # Inherit from figo device
 $(call inherit-product, device/huawei/figo/device.mk)
 
